@@ -1,0 +1,1 @@
+body{background:%%topline%%}header.top-line{background:%%topline%%}header.top-line *{color:%%toplinetxt%%}.header-content{background:%%header%%;color:%%headertxt%%}.header-content .btn-cta{background:%%cta%%;color:%%ctatxt%%}.presentation{background:%%topline%%}.benefits,.testimonial{background:%%benefits%%}.testimonial:before{border-top-color:%%benefitstxt%%}

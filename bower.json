@@ -1,0 +1,19 @@
+{
+  "name": "Maquette",
+  "version": "1.0.0",
+  "authors": [
+    "Stéphane Deluce <boluge@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

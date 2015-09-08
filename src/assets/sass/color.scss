@@ -1,0 +1,50 @@
+// Customisable colors
+$topline: unquote("%%topline%%");
+$toplinetxt: unquote("%%toplinetxt%%");
+
+$header: unquote("%%header%%");
+$headertxt: unquote("%%headertxt%%");
+
+$benefits: unquote("%%benefits%%");
+$benefitstxt: unquote("%%benefitstxt%%");
+
+$cta: unquote("%%cta%%");
+$ctatxt: unquote("%%ctatxt%%");
+
+
+body {
+	background: #{$topline};
+}
+
+// Header
+header {
+	&.top-line{
+		background: #{$topline};
+		* {
+			color: #{$toplinetxt};
+		}
+	}
+}
+
+.header-content {
+	background: #{$header};
+	color: #{$headertxt};
+	.btn-cta {
+		background: #{$cta};
+		color: #{$ctatxt};
+	}
+}
+
+.presentation {
+	background: #{$topline};
+}
+
+.benefits, .testimonial {
+	background: #{$benefits};
+}
+
+.testimonial {
+	&:before {
+		border-top-color: #{$benefitstxt};
+	}
+}

@@ -1,0 +1,98 @@
+// 	Load foundation
+@import 'start';
+
+//	Layout
+* {
+	box-sizing: border-box;
+}
+
+// Header
+header {
+	padding: 5px 0;
+	min-height: 55px;
+	line-height: 55px;
+	.menu {
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		li {
+			display: inline-block;
+			a {
+				padding: 10px 10px;
+				text-decoration: none;
+				font-weight: lighter;
+				font-size: 13px;
+				&:hover {
+					background: rgba(0,0,0,0.1);
+					border-radius: 4px;
+				}
+			}
+		}
+	}
+}
+
+.header-content {
+	padding: 20px 0;
+	.bloc {
+		min-height: 250px;
+	}
+	h1 {
+		margin: 0 0 10px 0;
+	}
+	h2 {
+		font-weight: lighter;
+	}
+	.btn-cta {
+		display: inline-block;
+		font-size: 20px;
+		padding: 10px 20%;
+		text-align: center;
+		margin-top: 30px;
+		border-radius: 4px;
+		text-decoration: none;
+		font-weight: 500;
+		transition: all 0.25s ease-in-out;
+		box-shadow: none;
+		&:hover {
+			box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+		}
+	}
+}
+
+.presentation {
+	padding: 20px 0;
+	.bloc {
+		min-height: 80px;
+	}
+}
+
+.benefits, .testimonial {
+	padding: 20px 0;
+	.bloc {
+		min-height: 120px;
+	}
+}
+
+.testimonial {
+	position: relative;
+	.bloc {
+		min-height: 80px;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		border-top-width: 1px;
+		border-top-style: solid;
+		left: 50%;
+		width: 50%;
+		margin-left: -25%;
+	}
+}
+
+.footer {
+	padding: 5px 0;
+	.bloc {
+		min-height: 40px;
+	}
+}
